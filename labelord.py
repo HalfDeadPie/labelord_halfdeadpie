@@ -558,6 +558,8 @@ class LabelordWeb(flask.Flask):
     my_token = None
     my_config = None
     my_secret = None
+    last_label = ""
+    last_action = ""
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
@@ -620,29 +622,34 @@ def index():
             if get_event(request) == "ping":
                 return "ok"
             elif get_event(request) == "label":
+                app.my_session.headers = {'User-Agent': 'Python'}
+                def token_auth(req):
+                    req.headers['Authorization'] = 'token ' + app.my_token
+                    return req
+                app.my_session.auth = token_auth
                 session = app.my_session
-                if(session.headers!= {'User-Agent': 'Python'}):
-                    session = requests.Session()
-                    session.headers = {'User-Agent': 'Python'}
-                    def token_auth(req):
-                        req.headers['Authorization'] = 'token ' + app.my_token
-                        return req
-                    session.auth = token_auth
 
                 repo = get_repo_name(request)
                 if(repo in repos):
                     action = get_action(request)
                     name = get_lname(request)
                     color = get_lcolor(request)
-                    #CREATED
-                    if(action == 'created'):
-                        return create_label(name, color, repos, session)
-                    #EDITED
-                    elif(action == 'edited'):
-                        return edit_label(name, color, repos, session)
-                    #DELETED
-                    elif(action == 'deleted'):
-                        return delete_label(name, repos, session)
+
+                    if(name != app.last_label or action != app.last_action):
+                        app.last_label = name
+                        app.last_action = action
+                        # CREATED
+                        if (action == 'created'):
+                            return create_label(name, color, repos, session, repo)
+                        # EDITED
+                        if (action == 'edited'):
+                            old_name = get_old_name(request)
+                            return edit_label(old_name, name, color, repos, session, repo)
+                        # DELETED
+                        if (action == 'deleted'):
+                            return delete_label(name, repos, session, repo)
+                    else:
+                        return "OK"
                 else:
                     code = 400
                     msg = 'BAD REQUEST'
@@ -653,25 +660,31 @@ def index():
             return msg, code
 
 #create label in other repos
-def create_label(name, color, repos, session):
+def create_label(name, color, repos, session, origin):
     for repo in repos:
-        data = {"name": name, "color": color}
-        json_data = json.dumps(data)
-        r = session.post("https://api.github.com/repos/"+repo+"/labels", json_data)
+        if(repo != origin):
+            data = {"name": name, "color": color}
+            json_data = json.dumps(data)
+            r = session.post("https://api.github.com/repos/"+repo+"/labels", json_data)
     return "200"
 
 #edit label in other repos
-def edit_label(name, color, repos, session):
+def edit_label(old_name, new_name, new_color, repos, session, origin):
     for repo in repos:
-        data = {"name": name, "color": color}
-        json_data = json.dumps(data)
-        r = session.patch("https://api.github.com/repos/"+repo+"/labels", json_data)
+        if(repo != origin):
+            data = {"name": new_name, "color": new_color}
+            json_data = json.dumps(data)
+            if(old_name == None):
+                r = session.patch("https://api.github.com/repos/" + repo + "/labels/" + new_name,json_data)
+            else:
+                r = session.patch("https://api.github.com/repos/" + repo + "/labels/" + old_name, json_data)
     return "200"
 
 #delete label in other repos
-def delete_label(name,repos, session):
+def delete_label(name,repos, session, origin):
     for repo in repos:
-        r = session.delete("https://api.github.com/repos/"+repo+"/labels" + name)
+        if(repo != origin):
+            r = session.delete("https://api.github.com/repos/"+repo+"/labels/" + name)
     return "200"
 
 #return True if the computed and received signatures are the same
@@ -690,6 +703,13 @@ def get_signature(request):
     else:
         return ""
 
+def get_old_name(request):
+    if('name' in request.json['changes']):
+        return request.json['changes']['name']['from']
+
+def get_old_color(request):
+    if('color' in request.json['changes']):
+        return request.json['changes']['color']['from']
 
 #return action used for the label from request
 def get_action(request):
