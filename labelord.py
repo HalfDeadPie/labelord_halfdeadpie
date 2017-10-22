@@ -601,15 +601,26 @@ class LabelordWeb(flask.Flask):
 # Be careful with configs, this is module-wide variable,
 # you want to be able to run CLI app as it was in task 1.
 #app = flask.Flask(__name__)
-app = LabelordWeb(__name__)
+#app = LabelordWeb(__name__)
+
+def create_app():
+    app = LabelordWeb(__name__)
+    app.my_config = set_config()
+    return app
+
+app=create_app()
 # TODO: implement web app
 # hint: you can use flask.current_app (inside app context)
 @app.route('/', methods=['GET', 'POST'])
 def index():
-    set_config()
+    if(app.my_config == None):
+        app.my_config = set_config()
     cfg = app.my_config
     repos = []
     repos = get_config_repos(cfg)
+    app.my_token = get_tkn(cfg)
+    app.my_secret = get_secret(cfg)
+
     r = request.method
 
     #GET METHOD
@@ -622,6 +633,8 @@ def index():
             if get_event(request) == "ping":
                 return "ok"
             elif get_event(request) == "label":
+                if(app.my_session == None):
+                    app.my_session = requests.Session()
                 app.my_session.headers = {'User-Agent': 'Python'}
                 def token_auth(req):
                     req.headers['Authorization'] = 'token ' + app.my_token
@@ -752,7 +765,8 @@ def repo_link(repo):
 @click.option('--port', '-p', default=5000)
 @click.option('--debug', '-d', is_flag=True)
 def run_server(ctx, host, port, debug):
-    """Run Flask app."""
+    # TODO: implement the command for starting web app (use app.run)
+    # Don't forget to app the session from context to app
     app.my_config = ctx.obj['config']
     app.my_session = ctx.obj['session']
     app.run(host,port,debug)
