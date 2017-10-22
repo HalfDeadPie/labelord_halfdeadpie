@@ -571,11 +571,11 @@ class LabelordWeb(flask.Flask):
         # @see http://flask.pocoo.org/docs/0.12/api/
         # @see https://github.com/pallets/flask
         import_name=__name__
-        self.my_config = set_config()
+        """self.my_config = set_config()
         config = self.my_config
         self.my_repos = get_config_repos(config)
         self.my_token = get_tkn(config)
-        self.my_secret = get_secret(config)
+        self.my_secret = get_secret(config)"""
 
     def inject_session(self, session):
         # TODO: inject session for communication with GitHub
@@ -752,8 +752,7 @@ def repo_link(repo):
 @click.option('--port', '-p', default=5000)
 @click.option('--debug', '-d', is_flag=True)
 def run_server(ctx, host, port, debug):
-    # TODO: implement the command for starting web app (use app.run)
-    # Don't forget to app the session from context to app
+    """Run Flask app."""
     app.my_config = ctx.obj['config']
     app.my_session = ctx.obj['session']
     app.run(host,port,debug)
