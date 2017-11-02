@@ -6,7 +6,7 @@ with open('README') as f:
 
 
 setup(
-    name='labelord',
+    name='labelord_halfdeadpie',
     version='0.3',
     description='Replicate Github Labels',
     long_description=long_description,
@@ -14,7 +14,7 @@ setup(
     author_email='s.stefunko@gmail.com',
     keywords='labels, labelord',
     license='Public Domain',
-    #url='https://gist.github.com/oskar456/e91ef3ff77476b0dbc4ac19875d0555e',
+    url='https://github.com/HalfDeadPie/labelord_halfdeadpie',
     packages=find_packages(),
     classifiers=[
         'Intended Audience :: Developers',
@@ -29,7 +29,7 @@ setup(
     zip_safe=False,
     entry_points={
         'console_scripts': [
-            'labelord = labelord.labelord:main',
+            'labelord = labelord_halfdeadpie.unity:main',
         ],
     },
     install_requires=['Flask', 'click>=6', 'requests']
