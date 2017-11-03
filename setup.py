@@ -6,7 +6,7 @@ with open('README') as f:
 
 
 setup(
-    name='labelord',
+    name='labelord_halfdeadpie',
     version='0.3',
     description='Replicate Github Labels',
     long_description=long_description,
@@ -36,5 +36,5 @@ setup(
         ],
     },
     install_requires=['Flask', 'click>=6', 'requests'],
-    package_data={'labelord': ['templates/*.html']}
+    package_data={'labelord_halfdeadpie': ['templates/*.html']}
 )

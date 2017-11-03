@@ -1,2 +1,2 @@
-from labelord.unity import main
+from labelord_halfdeadpie.unity import main
 main()
