@@ -32,5 +32,6 @@ setup(
             'labelord = labelord_halfdeadpie.unity:main',
         ],
     },
-    install_requires=['Flask', 'click>=6', 'requests']
+    install_requires=['Flask', 'click>=6', 'requests'],
+    package_data={'labelord_halfdeadpie': ['templates/*.html']}
 )

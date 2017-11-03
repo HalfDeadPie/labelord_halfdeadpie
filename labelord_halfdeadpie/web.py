@@ -1,5 +1,6 @@
 import flask
 from flask import request
+from flask import render_template
 from .web_support import *
 from .cli import cli
 #####################################################################
@@ -76,7 +77,8 @@ def index():
 
     #GET METHOD
     if r == "GET":
-        return get_info(repos)
+        #return get_info(repos)
+        return flask.render_template('index.html', repos=repos)
 
     #POST METHOD
     elif r == "POST":
