@@ -14,7 +14,7 @@ setup(
     author_email='s.stefunko@gmail.com',
     keywords='labels, labelord, github, flask, web',
     license='Public Domain',
-    url='https://github.com/HalfDeadPie/labelord_test',
+    url='https://github.com/HalfDeadPie/labelord_halfdeadpie',
     packages=find_packages(),
     classifiers=[
         'Intended Audience :: Developers',
@@ -36,5 +36,5 @@ setup(
         ],
     },
     install_requires=['Flask', 'click>=6', 'requests'],
-    package_data={'labelord_halfdeadpie': ['templates/*.html']}
+    package_data={'labelord_halfdeadpie' : ['templates/*.html']}
 )
