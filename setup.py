@@ -14,7 +14,7 @@ setup(
     author_email='s.stefunko@gmail.com',
     keywords='labels, labelord, github, flask, web',
     license='Public Domain',
-    url='https://github.com/HalfDeadPie/labelord_halfdeadpie',
+    url='https://github.com/HalfDeadPie/labelord_test',
     packages=find_packages(),
     classifiers=[
         'Intended Audience :: Developers',
