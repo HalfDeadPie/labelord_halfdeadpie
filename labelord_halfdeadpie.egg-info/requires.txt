@@ -1,3 +1,0 @@
-Flask
-click>=6
-requests

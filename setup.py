@@ -12,7 +12,7 @@ setup(
     long_description=long_description,
     author='Simon Stefunko',
     author_email='s.stefunko@gmail.com',
-    keywords='labels, labelord',
+    keywords='labels, labelord, github, flask, web',
     license='Public Domain',
     url='https://github.com/HalfDeadPie/labelord_halfdeadpie',
     packages=find_packages(),

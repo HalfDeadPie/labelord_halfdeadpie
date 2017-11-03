@@ -1,4 +1,0 @@
-{
-  "tests_module/test_distribution.py::test_package_info": true,
-  "tests_module/test_distribution.py::test_sdist": true
-}
