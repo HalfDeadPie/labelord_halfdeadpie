@@ -15,7 +15,9 @@ setup(
     keywords='labels, labelord, github, flask, web',
     license='Public Domain',
     url='https://github.com/HalfDeadPie/labelord_halfdeadpie',
-    packages=find_packages(),
+    packages=['labelord'],
+    package_data = {'labelord': ['templates/*.html']},
+    python_requires='~=3.6',
     classifiers=[
         'Intended Audience :: Developers',
         'License :: Public Domain',
@@ -32,9 +34,8 @@ setup(
     zip_safe=False,
     entry_points={
         'console_scripts': [
-            'labelord = labelord_halfdeadpie.unity:main',
+            'labelord = labelord.unity:main',
         ],
     },
-    install_requires=['Flask', 'click>=6', 'requests'],
-    package_data={'labelord_halfdeadpie' : ['templates/*.html']}
+    install_requires=['Flask', 'click>=6', 'requests']
 )
