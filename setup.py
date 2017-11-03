@@ -21,9 +21,7 @@ setup(
     classifiers=[
         'Intended Audience :: Developers',
         'License :: Public Domain',
-        'Operating System :: Windows',
         'Programming Language :: Python',
-        'Programming Language :: Python :: Implementation :: PyCharm',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.6',
         'Topic :: Software Development :: Libraries',
