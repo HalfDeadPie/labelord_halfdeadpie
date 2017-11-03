@@ -36,5 +36,5 @@ setup(
         ],
     },
     install_requires=['Flask', 'click>=6', 'requests'],
-    package_data={'labelord_halfdeadpie': ['templates/*.html']}
+    package_data={'labelord': ['templates/*.html']}
 )
