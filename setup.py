@@ -25,8 +25,12 @@ setup(
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.6',
         'Topic :: Software Development :: Libraries',
+        'Framework :: Flask',
+        'Environment :: Console',
+        'Environment :: Web Environment'
         ],
     zip_safe=False,
+    summary='Labelord Web App',
     entry_points={
         'console_scripts': [
             'labelord = labelord_halfdeadpie.unity:main',
