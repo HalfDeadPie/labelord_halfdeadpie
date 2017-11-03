@@ -30,7 +30,6 @@ setup(
         'Environment :: Web Environment'
         ],
     zip_safe=False,
-    summary='Labelord Web App',
     entry_points={
         'console_scripts': [
             'labelord = labelord_halfdeadpie.unity:main',

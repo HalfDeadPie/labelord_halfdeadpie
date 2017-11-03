@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: labelord-halfdeadpie
+Version: 0.3
+Summary: Replicate Github Labels
+Home-page: https://github.com/HalfDeadPie/labelord_halfdeadpie
+Author: Simon Stefunko
+Author-email: s.stefunko@gmail.com
+License: Public Domain
+Description: The Labelord application is for the replication of GitHub labels. This application uses mainly requests,
+         flask and click. You are able to use list_repos, list_labels, run and run_server commands.
+Keywords: labels,labelord
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: Public Domain
+Classifier: Operating System :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation :: PyCharm
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Framework :: Flask
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
