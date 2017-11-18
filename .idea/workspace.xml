@@ -2,84 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="416cadb6-d19b-45a4-a786-5b732ce4b73d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.travis.yml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_bad_config.test_no_labels.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_bad_config.test_no_repos.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_bad_config.test_no_token.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_bad_config.test_no_webhook_secret.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_basic.test_homepage.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_basic.test_webhook_ping.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_cli.test_listed_labels.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_cli.test_listed_labels_not_found[BlaBlaBla].json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_cli.test_listed_labels_not_found[HalfDeadPie-NotFound].json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_cli.test_listed_labels_not_found[MrFakeMan-AndHisFakeRepo].json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_cli.test_listed_repos.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_cli.test_run.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_hooks.test_bad_signature.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_hooks.test_label_created.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_hooks.test_label_created_not_allowed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_hooks.test_label_deleted.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_hooks.test_label_edited.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_hooks.test_no_redundant.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_hooks.test_no_signature.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_hooks.test_ping.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_index.test_app_info.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_index.test_repos_links.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_index.test_repos_list.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_index.test_repos_list_other.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_list_labels.test_list_bad_credentials.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_list_labels.test_list_more_than_hundred.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_list_labels.test_list_normal.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_list_labels.test_list_unexisting_repo.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_list_repos.test_list_bad_credentials.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_list_repos.test_list_more_than_hundred.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_list_repos.test_list_normal.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_prints.test_replace_dry_verbose_with_errors.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_prints.test_replace_normal.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_prints.test_replace_quiet.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_prints.test_replace_quiet_with_errors.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_prints.test_replace_verbose.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_prints.test_replace_verbose_with_errors.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_prints.test_update_dry_verbose_with_errors.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_prints.test_update_normal.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_prints.test_update_quiet.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_prints.test_update_quiet_with_errors.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_prints.test_update_verbose.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_prints.test_update_verbose_with_errors.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_replace.test_replace_all_repos.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_replace.test_replace_dry.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_replace.test_replace_dry_with_errors.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_replace.test_replace_empty_labels.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_replace.test_replace_empty_repos.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_replace.test_replace_normal.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_replace.test_replace_template_repo.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_replace.test_replace_with_errors.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_tricky.test_change_not_owned.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_tricky.test_color_case_sensitivity.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_tricky.test_label_case_sensitivity.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_tricky.test_precedence_template_repo.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_update.test_update_all_repos.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_update.test_update_dry.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_update.test_update_dry_with_errors.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_update.test_update_empty_labels.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_update.test_update_empty_repos.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_update.test_update_normal.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_update.test_update_template_repo.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_update.test_update_with_errors.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_usage_click.test_click_run_server.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_web.test_post_webhook[label_created].json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_web.test_post_webhook[label_deleted].json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_web.test_post_webhook[label_edited].json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_web.test_post_webhook_unauthorized.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_web.test_repos[HalfDeadPie-LoRa-FIIT].json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_web.test_repos[HalfDeadPie-Software-bridge].json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_web.test_repos[HalfDeadPie-Software-router].json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_web.test_run_server.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_web.test_run_server_help.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_web.test_welcome.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_web_support.test_session_labels.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/lib/labelord/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/lib/labelord/__main__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/lib/labelord/cli.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/lib/labelord/cli_support.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/lib/labelord/templates/error.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/lib/labelord/templates/header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/lib/labelord/templates/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/lib/labelord/templates/layout.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/lib/labelord/unity.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/lib/labelord/web.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/lib/labelord/web_support.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/labelord_halfdeadpie-0.4-py3-none-any.whl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/labelord_halfdeadpie-0.4.tar.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/configs/config.cfg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.cfg" afterPath="$PROJECT_DIR$/setup.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labelord_halfdeadpie.egg-info/PKG-INFO" afterPath="$PROJECT_DIR$/labelord_halfdeadpie.egg-info/PKG-INFO" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests_cli/test_run_tricky.py" afterPath="$PROJECT_DIR$/tests_cli/test_run_tricky.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -100,11 +40,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_run_tricky.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests_cli/test_run_tricky.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conftest_unit.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests_unit/conftest_unit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="224" column="29" lean-forward="true" selection-start-line="224" selection-start-column="29" selection-end-line="224" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_run_prints.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests_cli/test_run_prints.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -121,7 +91,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>len(</find>
       <find>autho</find>
       <find>beta</find>
       <find>list_repo</find>
@@ -151,6 +120,7 @@
       <find>Repo</find>
       <find>full_na</find>
       <find>4</find>
+      <find>0.3</find>
     </findStrings>
     <replaceStrings>
       <replace>',</replace>
@@ -182,11 +152,12 @@
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/setup.cfg" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/tests_cli/test_run_tricky.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-8" />
     <option name="width" value="976" />
     <option name="height" value="1050" />
   </component>
@@ -212,6 +183,22 @@
             <path>
               <item name="task6_tests" type="b2602c69:ProjectViewProjectNode" />
               <item name="task6_tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task6_tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task6_tests" type="462c0819:PsiDirectoryNode" />
+              <item name="tests_cli" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task6_tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task6_tests" type="462c0819:PsiDirectoryNode" />
+              <item name="tests_unit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task6_tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task6_tests" type="462c0819:PsiDirectoryNode" />
+              <item name="tests_unit" type="462c0819:PsiDirectoryNode" />
+              <item name="fixtures" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -251,17 +238,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="0" width="976" height="1050" extended-state="1" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2706767" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3549107" sideWeight="0.5042965" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.421875" sideWeight="0.49570355" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42663658" sideWeight="0.49570355" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -302,23 +288,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests_unit/test_cli.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests_cli/fixtures/cassettes/test_list_labels.test_list_normal.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests_cli/test_run_basic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -505,16 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests_unit/conftest_unit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="220" column="28" lean-forward="false" selection-start-line="220" selection-start-column="28" selection-end-line="220" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests_unit/fixtures/data/label_deleted.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -563,6 +522,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
           <caret line="151" column="7" lean-forward="false" selection-start-line="151" selection-start-column="7" selection-end-line="151" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#12#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -571,7 +533,7 @@
         <state relative-caret-position="211">
           <caret line="64" column="57" lean-forward="false" selection-start-line="64" selection-start-column="57" selection-end-line="64" selection-end-column="57" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -589,7 +551,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -599,7 +561,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -609,7 +571,7 @@
         <state relative-caret-position="567">
           <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -648,6 +610,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="215" column="64" lean-forward="false" selection-start-line="215" selection-start-column="63" selection-end-line="215" selection-end-column="64" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -662,7 +625,31 @@
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests_cli/test_run_prints.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests_cli/test_run_tricky.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests_unit/conftest_unit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="224" column="29" lean-forward="true" selection-start-line="224" selection-start-column="29" selection-end-line="224" selection-end-column="29" />
           <folding />
         </state>
       </provider>
