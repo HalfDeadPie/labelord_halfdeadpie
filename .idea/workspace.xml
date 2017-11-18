@@ -1,7 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="416cadb6-d19b-45a4-a786-5b732ce4b73d" name="Default" comment="" />
+    <list default="true" id="416cadb6-d19b-45a4-a786-5b732ce4b73d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_bad_config.test_no_labels.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_bad_config.test_no_repos.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_bad_config.test_no_token.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_bad_config.test_no_webhook_secret.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_basic.test_homepage.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_basic.test_webhook_ping.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_cli.test_listed_labels.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_cli.test_listed_labels_not_found[BlaBlaBla].json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_cli.test_listed_labels_not_found[HalfDeadPie-NotFound].json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_cli.test_listed_labels_not_found[MrFakeMan-AndHisFakeRepo].json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_cli.test_listed_repos.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_cli.test_run.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_hooks.test_bad_signature.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_hooks.test_label_created.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_hooks.test_label_created_not_allowed.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_hooks.test_label_deleted.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_hooks.test_label_edited.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_hooks.test_no_redundant.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_hooks.test_no_signature.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_hooks.test_ping.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_index.test_app_info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_index.test_repos_links.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_index.test_repos_list.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_index.test_repos_list_other.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_list_labels.test_list_bad_credentials.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_list_labels.test_list_more_than_hundred.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_list_labels.test_list_normal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_list_labels.test_list_unexisting_repo.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_list_repos.test_list_bad_credentials.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_list_repos.test_list_more_than_hundred.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_list_repos.test_list_normal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_prints.test_replace_dry_verbose_with_errors.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_prints.test_replace_normal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_prints.test_replace_quiet.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_prints.test_replace_quiet_with_errors.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_prints.test_replace_verbose.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_prints.test_replace_verbose_with_errors.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_prints.test_update_dry_verbose_with_errors.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_prints.test_update_normal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_prints.test_update_quiet.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_prints.test_update_quiet_with_errors.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_prints.test_update_verbose.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_prints.test_update_verbose_with_errors.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_replace.test_replace_all_repos.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_replace.test_replace_dry.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_replace.test_replace_dry_with_errors.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_replace.test_replace_empty_labels.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_replace.test_replace_empty_repos.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_replace.test_replace_normal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_replace.test_replace_template_repo.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_replace.test_replace_with_errors.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_tricky.test_change_not_owned.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_tricky.test_color_case_sensitivity.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_tricky.test_label_case_sensitivity.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_tricky.test_precedence_template_repo.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_update.test_update_all_repos.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_update.test_update_dry.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_update.test_update_dry_with_errors.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_update.test_update_empty_labels.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_update.test_update_empty_repos.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_update.test_update_normal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_update.test_update_template_repo.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_run_update.test_update_with_errors.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_usage_click.test_click_run_server.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_web.test_post_webhook[label_created].json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_web.test_post_webhook[label_deleted].json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_web.test_post_webhook[label_edited].json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_web.test_post_webhook_unauthorized.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_web.test_repos[HalfDeadPie-LoRa-FIIT].json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_web.test_repos[HalfDeadPie-Software-bridge].json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_web.test_repos[HalfDeadPie-Software-router].json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_web.test_run_server.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_web.test_run_server_help.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_web.test_welcome.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_web_support.test_session_labels.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.cfg" afterPath="$PROJECT_DIR$/setup.cfg" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,108 +89,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="test_cli.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests_unit/test_cli.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_distribution.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests_module/test_distribution.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_install.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests_module/test_install.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_submodules.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests_module/test_submodules.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/setup.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="39" column="52" lean-forward="false" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_list_labels.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests_cli/test_list_labels.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file leaf-file-name="setup.cfg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup.cfg">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="21">
-              <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+              <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cli.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/labelord/cli.py">
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web_support.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/labelord/web_support.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="119" column="4" lean-forward="false" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cli_support.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/labelord/cli_support.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="215" column="64" lean-forward="false" selection-start-line="215" selection-start-column="63" selection-end-line="215" selection-end-column="64" />
+            <state relative-caret-position="126">
+              <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -164,6 +157,9 @@
       <replace>',\n'</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -183,8 +179,9 @@
         <option value="$PROJECT_DIR$/tests_unit/fixtures/data/label_edited.json" />
         <option value="$PROJECT_DIR$/tests_unit/conftest.py" />
         <option value="$PROJECT_DIR$/tests_unit/test_web.py" />
-        <option value="$PROJECT_DIR$/setup.cfg" />
         <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/setup.cfg" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -193,6 +190,7 @@
     <option name="width" value="976" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -214,26 +212,6 @@
             <path>
               <item name="task6_tests" type="b2602c69:ProjectViewProjectNode" />
               <item name="task6_tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task6_tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task6_tests" type="462c0819:PsiDirectoryNode" />
-              <item name="tests_cli" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task6_tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task6_tests" type="462c0819:PsiDirectoryNode" />
-              <item name="tests_module" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task6_tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task6_tests" type="462c0819:PsiDirectoryNode" />
-              <item name="tests_unit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task6_tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task6_tests" type="462c0819:PsiDirectoryNode" />
-              <item name="tests_web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -274,16 +252,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.104189046" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2706767" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3549107" sideWeight="0.5042965" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.421875" sideWeight="0.49570355" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.421875" sideWeight="0.49570355" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -292,6 +270,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -323,16 +302,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/labelord/cli.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="42" column="32" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#12#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests_unit/test_cli.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -393,35 +362,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_cli.test_list_repos.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="141" lean-forward="true" selection-start-line="0" selection-start-column="141" selection-end-line="0" selection-end-column="141" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_cli.test_list_repos.json" />
     <entry file="file://$PROJECT_DIR$/tests_cli/fixtures/configs/config_emptylabels.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_cli.test_listed_repos_bad.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_cli.test_listed_repos_bad.json" />
     <entry file="file://$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_cli.test_listed_labels.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -429,23 +382,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="140" lean-forward="false" selection-start-line="0" selection-start-column="135" selection-end-line="0" selection-end-column="140" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_cli.test_listed_labels_not_found.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_cli.test_listed_labels_not_found.json" />
     <entry file="file://$PROJECT_DIR$/tests_unit/fixtures/configs/config_basic.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="8" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -453,23 +397,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_web_support.test_create_label.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_web_support.test_create_label.json" />
     <entry file="file://$PROJECT_DIR$/tests_cli/fixtures/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="3" column="1987" lean-forward="false" selection-start-line="3" selection-start-column="1987" selection-end-line="3" selection-end-column="1987" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -493,7 +428,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -501,23 +435,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests_unit/fixtures/configs/config.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests_unit/fixtures/configs/config.cfg" />
     <entry file="file://$PROJECT_DIR$/tests_web/fixtures/data/labelord_label_created_webhook.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="27" lean-forward="true" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -525,7 +450,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -534,7 +458,7 @@
         <state relative-caret-position="673">
           <caret line="69" column="26" lean-forward="false" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="26" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -560,7 +484,7 @@
         <state relative-caret-position="630">
           <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -595,7 +519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="6165" lean-forward="false" selection-start-line="0" selection-start-column="6165" selection-end-line="0" selection-end-column="6165" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -603,7 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="6199" lean-forward="false" selection-start-line="0" selection-start-column="6199" selection-end-line="0" selection-end-column="6199" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -611,7 +533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -635,7 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -643,9 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
           <caret line="151" column="7" lean-forward="false" selection-start-line="151" selection-start-column="7" selection-end-line="151" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -659,58 +576,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup.cfg">
+    <entry file="file://$PROJECT_DIR$/tests_module/test_submodules.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        <state relative-caret-position="336">
+          <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
+    <entry file="file://$PROJECT_DIR$/tests_module/test_install.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="39" column="52" lean-forward="false" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labelord/web_support.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="119" column="4" lean-forward="false" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labelord/cli_support.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="215" column="64" lean-forward="false" selection-start-line="215" selection-start-column="63" selection-end-line="215" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests_cli/test_list_labels.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labelord/cli.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests_unit/test_cli.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -727,20 +604,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests_module/test_install.py">
+    <entry file="file://$PROJECT_DIR$/tests_unit/test_cli.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="567">
+          <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests_module/test_submodules.py">
+    <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="378">
+          <caret line="39" column="52" lean-forward="false" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests_cli/test_list_labels.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labelord/cli.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labelord/web_support.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="119" column="4" lean-forward="false" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labelord/cli_support.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="215" column="64" lean-forward="false" selection-start-line="215" selection-start-column="63" selection-end-line="215" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding />
         </state>
       </provider>
