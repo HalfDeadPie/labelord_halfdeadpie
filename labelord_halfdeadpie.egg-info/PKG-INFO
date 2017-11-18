@@ -1,0 +1,27 @@
+Metadata-Version: 1.2
+Name: labelord-halfdeadpie
+Version: 0.4
+Summary: Replicate Github Labels
+Home-page: https://github.com/HalfDeadPie/labelord_halfdeadpie
+Author: Simon Stefunko
+Author-email: s.stefunko@gmail.com
+License: Public Domain
+Description-Content-Type: UNKNOWN
+Description: The Labelord application is for the replication of GitHub labels. This application uses mainly requests,
+         flask and click. You are able to use list_repos, list_labels, run and run_server commands.
+         
+        1. You have to create real config file 'config.cfg' in tests_unit\fixtures\configs.
+        2. You have to set your parameters and outputs in tests_unit/conftest_unit.py
+        3. Before recording cassettes you have to delete cassettes of mine
+Keywords: labels,labelord,github,flask,web
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: Public Domain
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Framework :: Flask
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Requires-Python: ~=3.6
