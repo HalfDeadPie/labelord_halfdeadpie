@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="416cadb6-d19b-45a4-a786-5b732ce4b73d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.cache/v/cache/lastfailed" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/labelord_halfdeadpie-0.4-py3-none-any.whl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/labelord_halfdeadpie-0.4.tar.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/labelord_halfdeadpie.egg-info/PKG-INFO" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/labelord_halfdeadpie.egg-info/SOURCES.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/labelord_halfdeadpie.egg-info/dependency_links.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/labelord_halfdeadpie.egg-info/entry_points.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/labelord_halfdeadpie.egg-info/not-zip-safe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/labelord_halfdeadpie.egg-info/requires.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/labelord_halfdeadpie.egg-info/top_level.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_cli.test_listed_labels.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_cli.test_listed_labels_not_found[BlaBlaBla].json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_cli.test_listed_labels_not_found[HalfDeadPie-NotFound].json" afterPath="" />
@@ -29,16 +19,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_web.test_welcome.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests_unit/fixtures/cassettes/test_web_support.test_session_labels.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests_module/test_distribution.py" afterPath="$PROJECT_DIR$/tests_module/test_distribution.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests_unit/fixtures/configs/config.cfg" afterPath="$PROJECT_DIR$/tests_unit/fixtures/configs/config.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests_unit/test_cli.py" afterPath="$PROJECT_DIR$/tests_unit/test_cli.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests_unit/test_cli_support.py" afterPath="$PROJECT_DIR$/tests_unit/test_cli_support.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests_unit/test_web.py" afterPath="$PROJECT_DIR$/tests_unit/test_web.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests_unit/test_web_support.py" afterPath="$PROJECT_DIR$/tests_unit/test_web_support.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tests_module/conftest_modules.py" afterPath="$PROJECT_DIR$/tests_module/conftest.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tests_unit/conftest_unit.py" afterPath="$PROJECT_DIR$/tests_unit/conftest.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tests_web/conftest_web.py" afterPath="$PROJECT_DIR$/tests_web/conftest.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="config.cfg" pinned="false" current-in-tab="false">
+      <file leaf-file-name="config.cfg" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests_unit/fixtures/configs/config.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="336">
+              <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -101,7 +82,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="setup.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
@@ -227,11 +208,11 @@
         <option value="$PROJECT_DIR$/labelord/web_support.py" />
         <option value="$PROJECT_DIR$/tests_unit/test_cli.py" />
         <option value="$PROJECT_DIR$/tests_unit/conftest_unit.py" />
-        <option value="$PROJECT_DIR$/tests_unit/fixtures/configs/config.cfg" />
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/tests_module/fixtures/test_config.cfg" />
         <option value="$PROJECT_DIR$/tests_module/test_distribution.py" />
         <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/tests_unit/fixtures/configs/config.cfg" />
       </list>
     </option>
   </component>
@@ -289,6 +270,19 @@
             <path>
               <item name="task6_tests" type="b2602c69:ProjectViewProjectNode" />
               <item name="task6_tests" type="462c0819:PsiDirectoryNode" />
+              <item name="tests_unit" type="462c0819:PsiDirectoryNode" />
+              <item name="fixtures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task6_tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task6_tests" type="462c0819:PsiDirectoryNode" />
+              <item name="tests_unit" type="462c0819:PsiDirectoryNode" />
+              <item name="fixtures" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task6_tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task6_tests" type="462c0819:PsiDirectoryNode" />
               <item name="tests_web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -333,6 +327,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31417832" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -341,7 +336,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.421875" sideWeight="0.49570355" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.421875" sideWeight="0.49570355" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -676,14 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests_unit/fixtures/configs/config.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests_unit/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -738,6 +725,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests_unit/fixtures/configs/config.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
           <folding />
         </state>
       </provider>
