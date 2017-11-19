@@ -3,7 +3,7 @@ import click
 
 from labelord import cli_support
 from labelord.cli_support import Label, is_named
-from tests_unit.conftest_unit import invoker
+from tests_unit.conftest import invoker
 
 
 def create_label():

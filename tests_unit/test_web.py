@@ -4,7 +4,7 @@ import pytest
 from click.testing import CliRunner
 
 from labelord import web, cli
-from tests_unit.conftest_unit import invoker
+from tests_unit.conftest import invoker
 
 with betamax.Betamax.configure() as config:
     config.cassette_library_dir = invoker.cassette()

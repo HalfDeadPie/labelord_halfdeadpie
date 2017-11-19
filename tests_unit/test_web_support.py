@@ -5,7 +5,7 @@ import click
 import pytest
 
 from labelord import web_support
-from tests_unit.conftest_unit import invoker
+from tests_unit.conftest import invoker
 
 
 with betamax.Betamax.configure() as config:

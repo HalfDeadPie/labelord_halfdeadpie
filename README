@@ -1,27 +1,8 @@
 The Labelord application is for the replication of GitHub labels. This application uses mainly requests,
  flask and click. You are able to use list_repos, list_labels, run and run_server commands.
- 
-1. You have to create real config file 'config.cfg' in tests_unit\fixtures\configs.
-2. You have to set your parameters and outputs in tests_unit/conftest_unit.py
+
+If you want to record new cassettes:
+1. Write the real GitHub token to 'config.cfg' in tests_unit\fixtures\configs.
+2. Set your parameters and outputs in tests_unit/conftest_unit.py
+    •for example: REPOS, LABELS, RUN_DRY, TARGET_REPOS
 3. Before recording cassettes you have to delete cassettes of mine
-
-Example of config:
-[github]
-webhook_secret = XXX
-token = XXX
-
-[labels]
-label1 = FFAA00
-label2 = CCAAFF
-label3 = 00FF00
-
-[others]
-template-repo = HalfDeadPie/MusicAppForEma
-
-[repos]
-HalfDeadPie/Software-router = yes
-HalfDeadPie/Software-bridge = yes
-HalfDeadPie/MusicAppForEma = no
-HalfDeadPie/LoRa-FIIT = yes
-
-Travis tests will pass only with config.cfg file.

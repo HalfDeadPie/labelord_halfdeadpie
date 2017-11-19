@@ -40,7 +40,6 @@ FAKE_REQUEST = flexmock\
 
 
 REPOS = ['HalfDeadPie/Games',
-        'HalfDeadPie/labelord_halfdeadpie',
         'HalfDeadPie/LoRa-FIIT',
         'HalfDeadPie/MusicAppForEma',
         'HalfDeadPie/Software-bridge',
@@ -84,7 +83,7 @@ INFO = 'labelord application is master-to-master application for label replicati
 HEADER_CREATED = headers={
                               'Content-Type': 'application/json',
                               'User-Agent': 'GitHub-Hookshot/e20df6f',
-                              'X-Hub-Signature': 'sha1=056ee2d41b12102a83581953fb61782c2a68d1f7',
+                              'X-Hub-Signature': 'sha1=1c62273cd11291f5b621cce75b21deab53c03a41',
                               'X-GitHub-Event': 'label',
                               'X-Github-Delivery': '9f55b9b0-cc68-11e7-8584-56dc6e8e94ec',
                               'X-Request-Id': 'bfa3c2d7-34d3-459f-af1f-7bbaf7e181b7'
@@ -93,7 +92,7 @@ HEADER_CREATED = headers={
 HEADER_EDITED = headers={
                               'Content-Type': 'application/json',
                               'User-Agent': 'GitHub-Hookshot/e20df6f',
-                              'X-Hub-Signature': 'sha1=c45ada43c50eec26bf8faa125a33255293250ed0',
+                              'X-Hub-Signature': 'sha1=3ba6ba9f2831f8a5cf09012db860b0f900a9ea2d',
                               'X-GitHub-Event': 'label',
                               'X-Github-Delivery': 'b8ead090-cc86-11e7-8363-65111c2702e2',
                               'X-Request-Id': 'ba0bd2ec-25cd-45a7-84dd-281da697cf81'
@@ -102,7 +101,7 @@ HEADER_EDITED = headers={
 HEADER_DELETED = headers={
                               'Content-Type': 'application/json',
                               'User-Agent': 'GitHub-Hookshot/e20df6f',
-                              'X-Hub-Signature': 'sha1=c64aacadca3556fbeb3a716c7f6da638f0f60eb6',
+                              'X-Hub-Signature': 'sha1=f366e800720cb1300ddd8e5e2c5c147374f57357',
                               'X-GitHub-Event': 'label',
                               'X-Github-Delivery': '6da11c06-cc87-11e7-866e-325d152a9020',
                               'X-Request-Id': '78640733-e1b8-4123-98b5-d6843a566a40'

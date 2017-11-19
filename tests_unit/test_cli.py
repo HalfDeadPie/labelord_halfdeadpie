@@ -4,7 +4,7 @@ import betamax
 import pytest
 
 from labelord import cli
-from tests_unit.conftest_unit import invoker
+from tests_unit.conftest import invoker
 from click.testing import CliRunner
 
 with betamax.Betamax.configure() as config:
