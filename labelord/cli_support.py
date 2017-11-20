@@ -221,7 +221,7 @@ def actualize(ctx, repo, template, verbose, dry_run, quiet, replace):
 def print_version(ctx, param, value):
     if not value or ctx.resilient_parsing:
         return
-    click.echo('labelord, version 0.4')
+    click.echo('labelord, version 0.4.1')
     ctx.exit()
 
 def get_last_page(response):

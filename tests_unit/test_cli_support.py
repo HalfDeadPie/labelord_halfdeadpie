@@ -60,7 +60,7 @@ def test_print_version(capsys):
     """Test the version printing"""
     cli_support.print_version(invoker.ctx(), param='', value='Value')
     out, err = capsys.readouterr()
-    assert click.unstyle(out.strip()) == 'labelord, version 0.4'
+    assert click.unstyle(out.strip()) == 'labelord, version 0.4.1'
 
 def test_add_updated():
     """Test the function that add updated repo to list"""

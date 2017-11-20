@@ -7,7 +7,7 @@ with open('README') as f:
 
 setup(
     name='labelord_halfdeadpie',
-    version='0.4',
+    version='0.4.1',
     description='Replicate Github Labels',
     long_description=long_description,
     author='Simon Stefunko',
