@@ -9,10 +9,11 @@ Cassettes
 ---------------------
 
 If you want to record new cassettes:
-1. Write the real GitHub token to 'config.cfg' in tests_unit\fixtures\configs.
-2. Set your parameters and outputs in tests_unit/conftest_unit.py
-    •for example: REPOS, LABELS, RUN_DRY, TARGET_REPOS
-3. Before recording cassettes you have to delete cassettes of mine
+
+    - Write the real GitHub token to 'config.cfg' in tests_unit\fixtures\configs.
+    - Set your parameters and outputs in tests_unit/conftest_unit.py
+        •for example: REPOS, LABELS, RUN_DRY, TARGET_REPOS
+    - Before recording cassettes you have to delete cassettes of mine
 
 Documentation
 ---------------------
