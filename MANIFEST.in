@@ -1,0 +1,11 @@
+include LICENSE
+include tests_unit/*
+include tests_unit/fixtures/*
+include tests_unit/fixtures/cassettes/*
+include tests_unit/fixtures/configs/*
+include tests_unit/fixtures/data/*
+include docs/*
+include docs/_static/*
+include docs/_templates/*
+include docs/auto/*
+include docs/tutorial/*
